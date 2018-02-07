@@ -20,6 +20,10 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
+=======
+wheels/
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 *.egg-info/
 .installed.cfg
 *.egg
@@ -42,7 +46,11 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
+=======
+*.cover
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 .hypothesis/
 
 # Translations
@@ -53,8 +61,14 @@ coverage.xml
 *.log
 local_settings.py
 
+<<<<<<< HEAD
 # Flask instance folder
 instance/
+=======
+# Flask stuff:
+instance/
+.webassets-cache
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 
 # Scrapy stuff:
 .scrapy
@@ -65,7 +79,11 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 # IPython Notebook
+=======
+# Jupyter Notebook
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 .ipynb_checkpoints
 
 # pyenv
@@ -74,19 +92,34 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+<<<<<<< HEAD
+=======
+# SageMath parsed files
+*.sage.py
+
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 # dotenv
 .env
 
 # virtualenv
+<<<<<<< HEAD
+=======
+.venv
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 venv/
 ENV/
 
 # Spyder project settings
 .spyderproject
+<<<<<<< HEAD
+=======
+.spyproject
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
 
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 # =========================
 # Operating System Files
 # =========================
@@ -137,3 +170,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+=======
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+>>>>>>> 0bbe7424f7c19638664c08426a07e5841593e094
