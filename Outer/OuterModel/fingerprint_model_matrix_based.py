@@ -1,8 +1,9 @@
-import Keras.optimizers as optimizers
-import Keras.regularizers as regularizers
-import Keras.models as models
-import Keras.layers as layers
-import Keras.backend as backend
+import sys
+import keras.optimizers as optimizers
+import keras.regularizers as regularizers
+import keras.models as models
+import keras.layers as layers
+import keras.backend as backend
 from . import config
 
 
