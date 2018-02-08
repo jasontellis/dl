@@ -4,6 +4,7 @@ from __future__ import print_function
 
 import numpy as np
 from six.moves import xrange
+import sys; import os; sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 try:
     from .molecule import Molecule

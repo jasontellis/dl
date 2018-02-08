@@ -2,11 +2,12 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+
 import argparse
 import logging
 import os
 import numpy as np
-
+import sys; sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 try:
     from . import config
